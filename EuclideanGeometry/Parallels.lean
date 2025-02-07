@@ -185,7 +185,6 @@ lemma parallel_quot {a b c d : Point}(ab : a ≠ b)(cd : c ≠ d): Parallel (Lin
   unfold padd pneg
   ext
   simp
-  ring
 }
 
 /- A big Lemma is the following: Two Lines are parallel, if one is the other one shifted:

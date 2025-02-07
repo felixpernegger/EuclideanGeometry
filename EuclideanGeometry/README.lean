@@ -86,5 +86,3 @@ Pasch' Axiom would have been nice to have in Auxiliary.lean (and maybe needed fo
 /-As the math behind all of this is quite simple, I did not really use any outside references/sources, although
 for a small amount of formulas / definitions (maybe about 3 in total), I relied on the chapter about Complex Numbers of the
 famous "Euclidean Geometry in Mathematical Olympiads" book by Evan Chen.-/
-
-/-The powerpoint slides of my presentation are found in the Powerpoint.pdf file!-/
