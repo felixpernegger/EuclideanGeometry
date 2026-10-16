@@ -1,6 +1,15 @@
-# EuclideanGeometry
+# Euclidean Geometry in Lean 4
 
-The following is a collection of variou results in planar Euclidean Geometry formalised via Lean 4. Euclidean Geometry is defined via complex numbers and everything proven from scratch; in particular without mathlib.
-Notably, this project contains a proof of Ceva's theorem (+ converse), which is situated in the Ceva.lean file. The final statement is at the very bottom of the file (theorem ceva).
+A formalization of planar Euclidean geometry from scratch in Lean 4 (~14,000 lines).
 
-Further overview of the project is described in README.lean
+## Highlights
+- Ceva's theorem (#61 on the Formalizing 100 Theorems list)
+- Thales Theorem
+- (Unique) Existence of circumcircle, orthocenter
+- Power of point
+
+
+## Approach
+
+Unlike Mathlib, this formalisation approaches Euclidean geometry via complex numbers.
+On the one hand, this approach doesn't let us generalize things very much, on the other hand, using Lean's compiler this approach makes calculations via complex numbers for geometry (i.e. Pythagorean theorem) feasible, allowing computational proofs otherwise out of reach.
