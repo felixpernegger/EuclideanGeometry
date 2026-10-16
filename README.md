@@ -11,5 +11,7 @@ A formalization of planar Euclidean geometry from scratch in Lean 4 (~14,000 lin
 
 ## Approach
 
-Unlike Mathlib, this formalisation approaches Euclidean geometry via complex numbers.
-On the one hand, this approach doesn't let us generalize things very much, on the other hand, using Lean's compiler this approach makes calculations via complex numbers for geometry (i.e. Pythagorean theorem) feasible, allowing computational proofs otherwise out of reach.
+Unlike Mathlib, this formalization works with points as complex numbers.
+This makes the results less general, but it turns many geometric statements
+(e.g. the Pythagorean theorem) into algebraic calculations that Lean's tactics
+can carry out, enabling computational proofs that would otherwise be out of reach.
